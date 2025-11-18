@@ -5,7 +5,7 @@ import TechIcon from '../components/models/TechLogos/TechIcon'
 import { useGSAP } from '@gsap/react'
 import {gsap} from 'gsap'
 
-const Techstack = () => {
+const TechStack = () => {
 
     useGSAP(() => {
         gsap.fromTo('.tech-card', {v:50, opacity:0}, {
@@ -65,4 +65,4 @@ const Techstack = () => {
   )
 }
 
-export default Techstack
+export default TechStack
