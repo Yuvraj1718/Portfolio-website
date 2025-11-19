@@ -32,10 +32,11 @@ const words = [
 
 const counterItems = [
   // { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 300, suffix: "+", label: "Leetcode Questions" },
-  { value: 10, suffix: "+", label: "Completed Projects" },
+  { value: 350, suffix: "+", label: "Leetcode Questions" },
+  { value: 5, suffix: "", label: "Completed Projects" },
   // { value: 90, suffix: "%", label: "Client Retention Rate" },
-  { value: 10, suffix: "+", label: "Certificates & Courses" },
+  // { value: 10, suffix: "", label: "Certificates & Courses" },
+  { value: 10, suffix: "+", label: "Technologies Used" },
   { value: 202, suffix: "5", label: "Gate Qualified-CS" },
 ];
 
@@ -145,13 +146,13 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "React",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "Python",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
@@ -163,20 +164,20 @@ const techStackIcons = [
   //   rotation: [0, -Math.PI / 2, 0],
   // },
   {
-    name: "Backend Developer",
+    name: "Java",
     modelPath: "/models/java.glb",
     scale: 1,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Linux Operating System",
+    name: "Linux",
     modelPath: "/models/tux.glb",
     scale: 7,
     rotation: [0, 0, 0],
     
   },
   {
-    name: "Project Manager",
+    name: "Git",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -284,9 +285,14 @@ const techStackIcons = [
 
 const socialImgs = [
   {
+    name: "Contact",
+    imgPath: "/images/contact.png",
+    url: "tel:7015169399"
+  },
+  {
     name: "Resume",
     imgPath: "/images/resume.png",
-    url: "public/images/Yuvraj_Java_Developer_Resume.pdf"
+    url: "/images/Yuvraj_Java_Developer_Resume.pdf"
   },
   {
     name: "GitHub",
