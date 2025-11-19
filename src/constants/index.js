@@ -300,7 +300,7 @@ const socialImgs = [
     url: "https://github.com/Yuvraj1718"
   },
   {
-    name: "linkedin",
+    name: "LinkedIn",
     imgPath: "/images/linkedin.png",
     url: "https://linkedin.com/in/mr-yuvraj-30a792231"
   },
